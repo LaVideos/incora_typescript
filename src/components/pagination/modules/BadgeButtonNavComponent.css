@@ -1,0 +1,10 @@
+.btn:first-child{
+   color: #8f8f8f;
+
+}
+
+
+
+.activeBtn:first-child{
+    color: #fcfbf7;
+}
