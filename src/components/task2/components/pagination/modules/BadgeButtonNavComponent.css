@@ -1,0 +1,27 @@
+.btn:first-child{
+   color: #8f8f8f;
+
+}
+
+
+
+.activeBtn:first-child{
+    color: #fcfbf7;
+}
+
+.div_of_btnPrev,.div_of_btnNext{
+    background: white;
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.div_of_btnPrev{
+    border-radius: 100px 0 0 100px;
+    padding-left: 30px;
+}
+
+.div_of_btnNext{
+    border-radius: 0 100px 100px 0 ;
+    padding-right: 5px;
+}

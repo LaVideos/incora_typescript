@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import {styled} from "@mui/material";
 import {grey} from "@mui/material/colors";
@@ -20,8 +19,8 @@ const ColorButton = styled(Button)(({ theme }) => ({
 
 export default function BadgeButtonNavComponent({data,disabled,onclick,classes}:IBadgeButtonNavProps) {
     return (
-        <Stack>
+        <div className={`div_of_btn${data.replace(' 10','')}`}>
             <ColorButton variant="contained" disabled={disabled} onClick={onclick} className={cn(disabled?classes?.btn:classes?.activeBtn)}>{data}</ColorButton>
-        </Stack>
+        </div>
     );
 }

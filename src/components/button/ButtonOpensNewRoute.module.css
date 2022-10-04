@@ -1,0 +1,36 @@
+
+.circle:first-child {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 2px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    animation: spin 10s linear infinite;
+    background: #7ebdb9;
+    border: none;
+}
+
+.circle-wrapper:active .circle {
+    animation: spin 2s linear infinite;
+}
+
+.rotate:first-child {
+    border-radius: 50%;
+    border: 2px dashed #7ebdb9;
+    animation: spin 10s linear infinite;
+    background-clip: content-box;
+    box-sizing: border-box;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+svg{
+    width: 50%;
+    height: 50%;
+}
