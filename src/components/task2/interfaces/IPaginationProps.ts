@@ -1,3 +1,5 @@
+import {ChangeEvent} from "react";
+
 interface IPaginationProps {
     activePage: number;
     totalItems: number;
@@ -7,7 +9,7 @@ interface IPaginationProps {
         btn?: string;
         activeBtn?: string;
     }
-    onChangePage: (newPage: number,event:any) => void;
+    onChangePage: (event:ChangeEvent<unknown>,newPage: number) => void;
 }
 
 export type {

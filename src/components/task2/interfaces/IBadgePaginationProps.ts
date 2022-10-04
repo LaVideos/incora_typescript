@@ -1,7 +1,9 @@
+import {ChangeEvent} from "react";
+
 interface IBadgePaginationProps{
     currentPage:number;
     count:number;
-    onChangePage?: (event:any,value: number) => void;
+    onChangePage?: (event:ChangeEvent<unknown>,value: number) => void;
 }
 
 

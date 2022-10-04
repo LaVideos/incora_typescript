@@ -1,0 +1,6 @@
+.pagination:first-child{
+    background: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}

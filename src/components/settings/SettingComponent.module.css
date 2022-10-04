@@ -1,0 +1,14 @@
+.info{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.info div{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
